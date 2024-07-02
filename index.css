@@ -1,0 +1,105 @@
+body{
+    background: #150E28;
+    color: aliceblue;
+    background-image: url(./dragon_ball.png);
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
+.slackDisplayName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 10px;
+}
+.nav-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-weight: bold;
+        font-size: large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+.navbar ul{
+    display: flex;
+    gap: 70px; 
+    
+    li{
+        list-style: none;
+      
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            font-size: large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: aliceblue;
+        }
+    }
+}
+.line{
+    width: 100%;
+    height: 0.5px;
+    background-color: #F22ACE;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin-top: 50px;
+    background-color: #9DC2C9;
+    border-radius: 10px;
+
+}
+.text_about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 590px;
+    height: 750px;
+    background-color: #150E28;
+    padding: 10px 20px;
+    h2{
+        line-height: 30px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+    }
+}
+.slack_img{
+    width: 590px;
+    height: 750px;
+}
+li{
+    list-style: none;
+}
+span{
+    font-size: 24px;
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #150E28;
+    padding: 10px;
+}
+.social_media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.email{
+ a{
+    text-decoration: none;
+    color: aliceblue;
+ }
+
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+ }
